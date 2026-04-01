@@ -1,0 +1,15 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/vsdip/avsdbgp_3v3_sky130_v2
+  commit: 47f87a51aa6fefb1f0ba2182f117a29f6baf4279
+  extracted_at: "2026-04-01T05:14:14Z"
+import:
+  rtl:
+    - path: "."
+      map_to: "rtl"
+  license:
+    - path: "Apache-2.0"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
